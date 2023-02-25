@@ -1,0 +1,66 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    background: #162742;
+    color: aliceblue;
+}
+
+.header {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 40px;
+    margin: 20px;
+    text-shadow: 4px 4px 3px black;
+}
+
+.container {
+    margin: auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: none;
+}
+
+.score {
+    background: #050C0F;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+    color: #ff6a4d;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    border: solid 2px #7DD3FC;
+    border-radius: 4px;
+}
+
+.buttons {
+    font: inherit;
+    font-size: 12px;
+    background-color: #3D6981;
+    border: solid 2px #7DD3FC;
+    border-radius: 4px;
+    color: #E0F2FE;
+    padding: 12px 5px;
+    background: #075985;
+    text-shadow: 3px 3px 3px black;
+    transition: .2s;
+}
+
+#reset-container {
+    text-align: center;
+}
+
+#reset-btn {
+    font-size: 15px;
+    margin: 40px;
+    padding: 10px 20px;
+}
+
+.buttons:hover {
+    border: solid 2px #FFFBEB;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .2s;
+    transition-timing-function: ease;
+}

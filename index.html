@@ -1,0 +1,34 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="header">HOME</h3>
+                <h2 class="score" id="home-score">0</h2>
+                <div>
+                    <button class="buttons" id="1pointhome" onclick="add1PointsH()">+1</button>
+                    <button class="buttons" id="2pointhome" onclick="add2PointsH()">+2</button>
+                    <button class="buttons" id="3pointhome" onclick="add3PointsH()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="header">GUEST</h3>
+                <h2 class="score" id="guest-score">0</h2>
+                <div>
+                    <button class="buttons" id="1pointguest" onclick="add1PointsG()">+1</button>
+                    <button class="buttons" id="2pointguest" onclick="add2PointsG()">+2</button>
+                    <button class="buttons" id="3pointguest" onclick="add3PointsG()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="reset-container">
+            <button class="buttons" id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
